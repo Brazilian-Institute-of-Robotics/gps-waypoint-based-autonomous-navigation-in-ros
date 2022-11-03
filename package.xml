@@ -5,6 +5,7 @@
   <description>The gps_waypoint_nav package</description>
 
   <maintainer email="arghyame20buet@gmail.com">Arghya Chatterjee</maintainer>
+  <maintainer email="marcellagiovannass@gmail.com">Marcella Giovanna</maintainer>
 
   <license>BSD</license>
 
@@ -19,6 +20,16 @@
   <run_depend>std_msgs</run_depend>
   <run_depend>hector_mapping_nav</run_depend>
   <run_depend>warthog_control</run_depend>
+  <run_depend>amcl</run_depend>
+  <run_depend>frontier_exploration</run_depend>
+  <run_depend>gmapping</run_depend>
+  <run_depend>map_server</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>navfn</run_depend>
+  <run_depend>base_local_planner</run_depend>
+  <run_depend>dwa_local_planner</run_depend>
+  <run_depend>nmea_navsat_driver</run_depend>
+  <run_depend>nmea_comms</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
