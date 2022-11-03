@@ -215,7 +215,7 @@ Visualization Manager:
       Length: 0.5
       Name: Raw Wheel Odom
       Position Tolerance: 0.1
-      Topic: /husky_velocity_controller/odom
+      Topic: /warthog_velocity_controller/odom
       Value: false
     - Angle Tolerance: 0.1
       Class: rviz/Odometry
