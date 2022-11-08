@@ -246,7 +246,7 @@ int main(int argc, char** argv)
 
         if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
         {
-            ROS_INFO("Husky has reached its goal!");
+            ROS_INFO("warthog has reached its goal!");
             ROS_INFO("Collecting Scan...");
             std_msgs::Bool take_scan;
             take_scan.data = true;
@@ -256,7 +256,7 @@ int main(int argc, char** argv)
         }
         else
         {
-            ROS_ERROR("Husky was unable to reach its goal. GPS Waypoint unreachable.");
+            ROS_ERROR("warthog was unable to reach its goal. GPS Waypoint unreachable.");
             ROS_INFO("Exiting node...");
             // Notify joy_launch_control that waypoint following is complete
             std_msgs::Bool node_ended;
@@ -266,7 +266,7 @@ int main(int argc, char** argv)
         }
     } // End for loop iterating through waypoint vector
 
-    ROS_INFO("Husky has reached all of its goals!!!\n");
+    ROS_INFO("warthog has reached all of its goals!!!\n");
     ROS_INFO("Ending node...");
 
     // Notify joy_launch_control that waypoint following is complete

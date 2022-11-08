@@ -3,13 +3,13 @@
 <launch>
 
     <!-- Run husky_bringup -->
-    <include file="$(find gps_waypoint_nav)/launch/include/husky_bringup.launch" />
+    <!-- <include file="$(find gps_waypoint_nav)/launch/include/husky_bringup.launch" /> -->
 
     <!-- launch lms1xx lidar -->
-    <include file="$(find gps_waypoint_nav)/launch/include/laser.launch" />
+    <!-- <include file="$(find gps_waypoint_nav)/launch/include/laser.launch" /> -->
 
     <!-- launch um6 imu -->
-    <include file="$(find gps_waypoint_nav)/launch/include/imu.launch" />
+    <!-- <include file="$(find gps_waypoint_nav)/launch/include/imu.launch" /> -->
 
     <!-- launch gps -->
     <include file="$(find gps_waypoint_nav)/launch/include/gps.launch" />

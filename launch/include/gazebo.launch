@@ -6,7 +6,7 @@
   <arg name="kinect_enabled" default="false"/>
 
 
-  <!-- Launch husky gazebo -->
+  <!-- Launch warthog gazebo -->
     <include file="$(find warthog_gazebo)/launch/empty_world.launch">
       <arg name="world_name" value="$(find warthog_gazebo)/worlds/warthog_playpen.world"/>
       <!--<arg name="world_name" value="worlds/empty.world"/>-->

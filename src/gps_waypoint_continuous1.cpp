@@ -283,7 +283,7 @@ int main(int argc, char** argv)
             //controller_1_done.data = true; // once done waiting, publish that this controller is done, and to switch to the next
             //pub_controller_1_done.publish(controller_1_done);
 
-            ROS_INFO("Husky has reached all of its goals!!!\n");
+            ROS_INFO("Warthog has reached all of its goals!!!\n");
 
             // Notify joy_launch_control that waypoint following is complete
             std_msgs::Bool node_ended;
